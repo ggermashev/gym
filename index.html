@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <link rel="stylesheet" type="text/css" href="css/mainpage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="menu">
+    <button class="menu-btn" id="btn_menu">Меню</button>
+    <div class="hidden-menu" id="hidden_menu"></div>
+    <ul class="menu">
+        <li class="menu main-page"><a href="index.html">Главная</a></li>
+        <li class="menu"><a href="pages/swimmingpool.html">Бассейн</a></li>
+        <li class="menu"><a href="pages/gym.html">Тренажерный зал</a></li>
+        <li class="menu"><a href="pages/box.html">Бокс</a></li>
+    </ul>
+</div>
+<h1 class="main-header">Добро пожаловать в фитнес клуб!</h1>
+<div class="info">
+    <img class="picture-info" src="img/img1.jpg">
+    <img class="picture-info" src="img/img2.jpg">
+    <p>Наш фитнес-центр крупнейший в России, находится в бизнес-центре Москва-Сити и имеет прекрасный вид на город.</p>
+</div>
+<div class="prices">
+    <h3 class="prices">Наши тарифы</h3>
+    <table class="prices">
+        <tr>
+            <th>Вид услуги</th>
+            <th>Цена</th>
+            <th>Расписание</th>
+        </tr>
+        <tr>
+            <td>Бассейн</td>
+            <td>1000р в месяц</td>
+            <td>вт, чт</td>
+        </tr>
+        <tr>
+            <td>Тренажерный зал</td>
+            <td>3000р в месяц</td>
+            <td>пн-вс</td>
+        </tr>
+        <tr>
+            <td>Бокс</td>
+            <td>2000р в месяц</td>
+            <td>пн, ср, пт</td>
+        </tr>
+    </table>
+    <button class="accept-btn" onclick="window.location.href='pages/registration.html'">Хочу пойти!</button>
+</div>
+</body>
+<script type="text/javascript" src="js/index.js"></script>
+</html>
