@@ -1,0 +1,22 @@
+.accept-btn {
+    display: block;
+    margin: 10px auto;
+    color: gold;
+    background-color: black;
+    font-size: 1.0em;
+    height: 2.5em;
+    width: 10em;
+    border-radius: 30px;
+}
+
+.accept-btn:hover {
+    border: 2px solid red;
+    border-right: 10px solid red;
+    border-left: 10px solid red;
+}
+
+@media (max-width: 300px) {
+    .accept-btn {
+        font-size: 0.8em;
+    }
+}

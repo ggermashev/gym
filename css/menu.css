@@ -2,6 +2,11 @@
     margin: 0px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 button:hover {
     cursor: pointer;
 }
@@ -26,7 +31,7 @@ body {
 
 div.menu {
     width: 100%;
-    background-color: yellow;
+    background-color: black;
     height: 50px;
     position: relative;
     display: block;
@@ -37,20 +42,21 @@ ul .menu {
     padding: 19px;
     padding-left: 5%;
     padding-right: 5%;
+    color: white;
 }
 
 ul .main-page {
     padding: 17px;
 }
 
-@media (min-width: 575px) and (max-width: 750px) {
+@media (min-width: 595px) and (max-width: 750px) {
     li.menu {
         padding-left: 10px;
         padding-right: 10px;
     }
 }
 
-@media (min-width: 0px) and (max-width: 574px) {
+@media (min-width: 0px) and (max-width: 594px) {
     ul.menu {
         visibility: collapse;
     }
@@ -58,11 +64,7 @@ ul .main-page {
 
 
 ul.menu :hover {
-    background-color: ghostwhite;
-}
-
-a {
-    text-decoration: none;
+    background-color: deeppink;
     color: black;
 }
 
@@ -76,8 +78,8 @@ a {
     padding-top: 0.6em;
     margin-top: 0;
     border-radius: 10px;
-    background-color: black;
-    color: gold;
+    background-color: white;
+    color: black;
     font-size: 1em;
 }
 
@@ -85,7 +87,7 @@ a {
     border: 2px solid red;
 }
 
-@media (min-width: 575px) {
+@media (min-width: 595px) {
     .menu-btn {
         visibility: collapse;
     }
@@ -95,6 +97,7 @@ a {
     background-color: black;
     color: gold;
 }
+
 
 li.hidden-menu {
     margin-bottom: 5px;
@@ -107,5 +110,5 @@ li.hidden-menu {
 }
 
 li.hidden-menu:hover {
-    background-color: white;
+    background-color: deeppink;
 }

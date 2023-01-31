@@ -34,21 +34,6 @@ table.prices {
     clear: left;
 }
 
-.accept-btn {
-    display: block;
-    margin: 10px auto;
-    color: gold;
-    background-color: black;
-    font-size: 1.0em;
-    height: 2.5em;
-    width: 15em;
-}
-
-.accept-btn:hover {
-    border: 2px solid red;
-    border-right: 10px solid red;
-    border-left: 10px solid red;
-}
 
 .picture-info {
     display: flex;

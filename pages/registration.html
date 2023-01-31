@@ -5,6 +5,8 @@
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="../css/menu.css">
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/registration.css">
+    <link rel="stylesheet" type="text/css" href="../css/accept-btn.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -18,13 +20,33 @@
         <li class="menu"><a href="../pages/box.html">Бокс</a></li>
     </ul>
 </div>
-<h1>Форма записи на занятия</h1>
-
+<h1 class="main-header">Форма записи на занятия</h1>
+<form id="form">
+    <div class="field">
+        <label>Имя</label>
+        <input type="text" name="name" required>
+    </div>
+    <div class="field">
+        <label>Фамилия</label>
+        <input type="text" name="surname" required>
+    </div>
+    <div class="field">
+        <label>Почта</label>
+        <input type="email" name="mail" required>
+    </div>
+    <div class="field">
+        <label>Телефон</label>
+        <input type="tel" name="phone" value = "+7 "required>
+    </div>
+    <button type="submit" class="accept-btn">Вызвать Alert</button>
+</form>
 <footer class="footer">
     <p class="footer">@by Григорий Гермашев</p>
     <img src="../img/vk.jpg" class="vk"  onclick="window.open('https://vk.com/ggermashev','_blank')">
     <img src="../img/git.jpg" class="git" onclick="window.open('https://github.com/ggermashev?tab=repositories','_blank')">
 </footer>
 <script type="text/javascript" src="../js/menu.js"></script>
+<script type="text/javascript" src="../js/form.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
 </body>
 </html>

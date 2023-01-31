@@ -1,0 +1,26 @@
+form {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    background-color: gold;
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+
+div.field * {
+    width: 60%;
+    margin: 10px auto;
+    margin-bottom: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+input {
+    border-radius: 10px;
+    float: right;
+}
+
+label {
+    float: left;
+    text-decoration: underline;
+}

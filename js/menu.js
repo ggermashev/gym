@@ -16,8 +16,13 @@ window.addEventListener("load", function () {
             element.className = "hidden-menu"
             link = document.createElement('a')
             link.textContent = "Главная"
-            link.href = "index.html"
-            link.style.color = 'gold'
+            if (_.last(_.split(window.location.href, '/')) === 'index.html') {
+                link.href = "index.html"
+            }
+            else {
+                link.href = "../index.html"
+            }
+            link.style.color = 'ghostwhite'
             element.appendChild(link)
             list.appendChild(element)
 
@@ -25,8 +30,13 @@ window.addEventListener("load", function () {
             element.className = "hidden-menu"
             link = document.createElement('a')
             link.textContent = "Бассейн"
-            link.href = "../pages/swimmingpool.html"
-            link.style.color = 'gold'
+            if (_.last(_.split(window.location.href, '/')) === 'index.html') {
+                link.href = "pages/swimmingpool.html"
+            }
+            else {
+                link.href = "../pages/swimmingpool.html"
+            }
+            link.style.color = 'ghostwhite'
             element.appendChild(link)
             list.appendChild(element)
 
@@ -34,8 +44,13 @@ window.addEventListener("load", function () {
             element.className = "hidden-menu"
             link = document.createElement('a')
             link.textContent = "Тренажерный зал"
-            link.href = "../pages/gym.html"
-            link.style.color = 'gold'
+            if (_.last(_.split(window.location.href, '/')) === 'index.html') {
+                link.href = "pages/gym.html"
+            }
+            else {
+                link.href = "../pages/gym.html"
+            }
+            link.style.color = 'ghostwhite'
             element.appendChild(link)
             list.appendChild(element)
 
@@ -43,8 +58,13 @@ window.addEventListener("load", function () {
             element.className = "hidden-menu"
             link = document.createElement('a')
             link.textContent = "Бокс"
-            link.href = "../pages/box.html"
-            link.style.color = 'gold'
+            if (_.last(_.split(window.location.href, '/')) === 'index.html') {
+                link.href = "pages/box.html"
+            }
+            else {
+                link.href = "../pages/box.html"
+            }
+            link.style.color = 'ghostwhite'
             element.appendChild(link)
             list.appendChild(element)
 
@@ -63,4 +83,15 @@ window.addEventListener("load", function () {
             btn_menu.style.width = "3.5em"
         }
     }
+
+    window.onresize = function () {
+        if (window.screen.width >= 595) {
+            let list = document.getElementById('list')
+            list.remove()
+            btn_menu.textContent = "Меню"
+            btn_menu.style.marginRight = "10px"
+            btn_menu.style.width = "3.5em"
+        }
+    }
 })
+

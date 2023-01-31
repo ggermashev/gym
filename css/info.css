@@ -1,0 +1,38 @@
+div.info {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 50px;
+    min-height: 320px;
+    max-width: 600px;
+    padding: 30px;
+    padding-bottom: 60px;
+    margin-bottom: 80px;
+    position: relative;
+    background-color: lightblue;
+
+}
+
+.info-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+@media (max-width: 490px) {
+    .info-img {
+        width: 150px;
+        height: 150px;
+        margin-left: -15px;
+    }
+}
+
+button.accept-btn {
+    position: absolute;
+    bottom: -5px;
+    right: 15px;
+}
+
