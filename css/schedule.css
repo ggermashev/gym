@@ -1,0 +1,17 @@
+div.schedule {
+    width: 80%;
+    margin: 20px auto;
+}
+
+div.schedule h3 {
+    text-align: center;
+}
+
+div.schedule ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+div.schedule li {
+    margin-top: 10px;
+}

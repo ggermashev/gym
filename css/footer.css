@@ -1,0 +1,44 @@
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    background-color: black;
+    color: gold;
+    width: 100%;
+}
+
+p.footer {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+img.vk {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 8px;
+    left: 220px;
+    border-radius: 20px;
+    border: 2px solid gold;
+}
+
+img.vk:hover {
+    border-color: red;
+    cursor: pointer;
+}
+
+img.git {
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 8px;
+    left: 260px;
+    border-radius: 20px;
+    border: 2px solid gold;
+}
+
+img.git:hover {
+    border-color: red;
+    cursor: pointer;
+}

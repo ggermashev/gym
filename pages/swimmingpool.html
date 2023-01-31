@@ -3,8 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Бассейн</title>
+    <link rel="stylesheet" type="text/css" href="../css/menu.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/schedule.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-
+<div class="menu">
+    <button class="menu-btn" id="btn_menu">Меню</button>
+    <div class="hidden-menu" id="hidden_menu"></div>
+    <ul class="menu">
+        <li class="menu main-page"><a href="../index.html">Главная</a></li>
+        <li class="menu"><a href="../pages/swimmingpool.html">Бассейн</a></li>
+        <li class="menu"><a href="../pages/gym.html">Тренажерный зал</a></li>
+        <li class="menu"><a href="../pages/box.html">Бокс</a></li>
+    </ul>
+</div>
+<div class="schedule">
+    <h3>Расписание занятий вт, чт</h3>
+    <ul>
+        <li>8:00 - 9:30</li>
+        <li>10:00 - 11:30</li>
+        <li>12:00 - 13:30</li>
+        <li>16:00 - 17:30</li>
+        <li>18:00 - 19:30</li>
+    </ul>
+</div>
+<footer class="footer">
+    <p class="footer">@by Григорий Гермашев</p>
+    <img src="../img/vk.jpg" class="vk" onclick="window.open('https://vk.com/ggermashev','_blank')">
+    <img src="../img/git.jpg" class="git"
+         onclick="window.open('https://github.com/ggermashev?tab=repositories','_blank')">
+</footer>
+<script type="text/javascript" src="../js/menu.js"></script>
 </body>
 </html>

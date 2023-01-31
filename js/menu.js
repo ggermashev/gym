@@ -1,4 +1,4 @@
-window.onload = function () {
+window.addEventListener("load", function () {
     let btn_menu = document.getElementById("btn_menu")
     let hidden_menu = document.getElementById("hidden_menu")
     btn_menu.onclick = function () {
@@ -63,4 +63,4 @@ window.onload = function () {
             btn_menu.style.width = "3.5em"
         }
     }
-}
+})
